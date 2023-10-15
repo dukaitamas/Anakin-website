@@ -1,230 +1,228 @@
 body {
-  display:flex;
-flex-direction:row;
-  justify-content:center;
-  background:white;
-  margin-top:0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: white;
+  margin-top: 0px;
 }
 
 #content {
-   display:flex;
-flex-direction:column;
-  
-  
+  display: flex;
+  flex-direction: column;
 }
 
 #main {
-   display:flex;
-flex-direction:row;
-  width:1200px;
-  height:2000px;
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 2000px;
 }
 
 header {
-  width:1200px;
-  height:90px;
-  background:#222;
+  width: 1200px;
+  height: 90px;
+  background: #222;
   display: flex;
-  justify-content:space-evenly; 
-  color:white;
-  font-family: 'Monoton';
-  font-size:30px;
-  align-items:center;
+  justify-content: space-evenly;
+  color: white;
+  font-family: "Monoton";
+  font-size: 30px;
+  align-items: center;
   position: fixed;
-  top: -5; 
-  z-index:3;
-   
+  top: -5;
+  z-index: 3;
 }
 
-.riot{
-  color:pink;
-  font-family: 'Monoton';
-  font-size:40px;
- align-items:center;
-  padding-bottom:10px;
-   color: #fff;
+.riot {
+  color: pink;
+  font-family: "Monoton";
+  font-size: 40px;
+  align-items: center;
+  padding-bottom: 10px;
+  color: #fff;
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
- }
+}
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 0px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 110px #e60073;
+    text-shadow: 0 0 0px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073,
+      0 0 50px #e60073, 0 0 60px #e60073, 0 0 110px #e60073;
   }
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
 
 #sidebar {
-  width:100%;
-  background:black; 
-  pading-top:100px;
-  margin-left:-10px;
+  width: 100%;
+  background: black;
+  pading-top: 100px;
+  margin-left: -10px;
 }
 
 aside {
-  width:100%;
-  background:black;
-  margin-right:-10px;
+  width: 100%;
+  background: black;
+  margin-right: -10px;
 }
 
 #left {
-  background:white;
-  width:40%;
-  display:flex;
-  flex-direction:column;  
- justify-content:space-between;
-  position:relative;
-  margin-top:0px;
-  
+  background: white;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 0px;
 }
 
 #right {
-  background:white;
- width:80%; 
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-  margin-top:80px;
-  margin-left:20px;
-  
+  background: white;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-left: 20px;
 }
 
 img {
   display: block;
- margin-top:82px;
-  width:400px;
-  height:200px;
-  z-index:1;
-  position:relative;
+  margin-top: 82px;
+  width: 400px;
+  height: 200px;
+  z-index: 1;
+  position: relative;
 }
-  
-  background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
-  background-size: cover;
-   background-repeat: no-repeat; 
-  background-position: bottom;  
+ 
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/8e/Hayden_Christensen_as_Anakin_Skywalker.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom;
 }
+
 
 blockquote::before {
-  content: 'c';
-  font-family: 'Abril Fatface', cursive;
-  font-size: 150%;  
-  display:flex;
-  position:absolute;
+  content: "c";
+  font-family: "Abril Fatface", cursive;
+  font-size: 150%;
+  display: flex;
+  position: absolute;
   top: -15px;
   left: 0px;
-  color:#bd1aca;
+  color: #bd1aca;
   /* just setted the quotation mark to red:)*/
-  z-index:50;
+  z-index: 50;
 }
 
-blockquote{
-  font-family: 'Abril Fatface', cursive;
-  background:#222;
-  color:white;
-  font-size:50px;
+blockquote {
+  font-family: "Abril Fatface", cursive;
+  background: #222;
+  color: white;
+  font-size: 50px;
   font-weight: 800;
   padding: 25px;
-  padding-left:20px;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:0px;
-  margin-bottom:0px;
-  line-height:1.3;
-  text-align:start;
-  align-self:stretch;
-   align-items:stretch;
-    display: flex;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 1.3;
+  text-align: start;
+  align-self: stretch;
+  align-items: stretch;
+  display: flex;
   flex-wrap: wrap;
-  align-content:stretch;
-  display:block;
-  justify-content:;
-  width:88.8%;
-  height:16%;
-  position:relative;
+  align-content: stretch;
+  display: block;
+  justify-content: ;
+  width: 88.8%;
+  height: 16%;
+  position: relative;
 }
 
-.firstsentence{
-  font-family: 'Josefin Sans', sans-serif;
-  color:#222;
-  margin-bottom:20px;
-  margin-top:20px;
+.firstsentence {
+  font-family: "Josefin Sans", sans-serif;
+  color: #222;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-p{
-  font-family: 'Josefin Sans', sans-serif;
-  color:#222;
-  margin-bottom:20px;
+p {
+  font-family: "Josefin Sans", sans-serif;
+  color: #222;
+  margin-bottom: 20px;
 }
 
-ul{
-  font-family: 'Josefin Sans', sans-serif;
-  color:#222;
-  margin-bottom:40px;
+ul {
+  font-family: "Josefin Sans", sans-serif;
+  color: #222;
+  margin-bottom: 40px;
 }
 
-#subtitle{
-  font-family:'Merriweather', italic;
-  font-size:15px;
-  margin-top:5px;
+#subtitle {
+  font-family: "Merriweather", italic;
+  font-size: 15px;
+  margin-top: 5px;
   font-style: oblique 45deg;
 }
 
-span{
-  font-family: 'Josefin Sans', sans-serif;
-  font-size:25px;
-  color:#222;
-  margin-bottom:10px;
+span {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  color: #222;
+  margin-bottom: 10px;
 }
 
-h3{ 
-  font-family: 'Josefin Sans', sans-serif;
-  color:#222;
-  font-size:25px;
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #222;
+  font-size: 25px;
   text-transform: uppercase;
-  margin-top:50px;
-  margin-bottom:40px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 .smalltext {
-  margin-top:35px;
-  margin-bottom:35px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 quote {
-  font-family: 'Abril Fatface', cursive;
-  color:#222;
+  font-family: "Abril Fatface", cursive;
+  color: #222;
 }
 
-.my{
- font-family: 'Abril Fatface', cursive;
-  font-size:30px;
-  position:absolute;
-  top:90px;
-  left:200px;
-  display:inline; 
-  z-index:2;
+.my {
+  font-family: "Abril Fatface", cursive;
+  font-size: 30px;
+  position: absolute;
+  top: 90px;
+  left: 200px;
+  display: inline;
+  z-index: 2;
 }
 
-.Anakin{  
-  font-family: 'Abril Fatface', cursive;
-  font-size:50px;
+.Anakin {
+  font-family: "Abril Fatface", cursive;
+  font-size: 50px;
   font-weight: 900;
-  position:absolute;
-  top:110px;
-  left:200px;
-  display:inline; 
-  z-index:2;
-  }
+  position: absolute;
+  top: 110px;
+  left: 200px;
+  display: inline;
+  z-index: 2;
+}
 
-section {  
+section {
   height: auto;
   width: 100%;
   display: flex;
-   flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 * {
@@ -236,13 +234,21 @@ section {
   color: black;
 }
 
-.buttons{
-  display:block;
-  display:flex;
-  flex-direction:row;
-  justify-content:space-evenly;
-  margin-left:auto;
-  margin-right:auto;
+.buttons {
+  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
   justify-items: left;
-   align-items:space-around;
+  align-items: space-around;
+}
+
+h2 {
+  color: #e0b6cb;
+}
+
+h1 {
+  color:#e88dba
 }
